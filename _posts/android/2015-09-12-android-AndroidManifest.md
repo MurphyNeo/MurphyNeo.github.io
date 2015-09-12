@@ -54,8 +54,10 @@ keywords: android,AndroidManifest.xml,manifest
     </application>  
 </manifest>
 ```
+
 常用标签
-### 全局（包名、版本信息）
+- 全局（包名、版本信息）
+
 ```
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="com.example.neo.example"
@@ -66,9 +68,12 @@ keywords: android,AndroidManifest.xml,manifest
 > 
 ```
 
-### 组件（四大组件）
+## 组件（四大组件）
+
 - Activity组件(即界面控制器组件)
+
 Android应用中的每一个Activity都必须在这里声明，否则系统将不识别也不执行。常用的属性有：类名android:name,android:label,主题android:theme,加载模式android:launchMode,键盘交互模式android:windowSoftInputMode等
+
 ```
 android:allowTaskReparenting=["true" | "false"]
 android:alwaysRetainTaskState=["true" | "false"]
@@ -108,6 +113,7 @@ android:windowSoftInputMode=[one or more of: "stateUnspecified" "stateUnchanged"
 ```
 
 - Provider(包含权限控制等)
+
 ```
 <provider android:authorities="list" 
            android:enabled=["true" | "false"] 
@@ -127,6 +133,7 @@ android:windowSoftInputMode=[one or more of: "stateUnspecified" "stateUnchanged"
 ```
 
 - Service
+
 ```
 <service android:enabled=["true" | "false"] 
           android:exported[="true" | "false"] 
@@ -140,6 +147,7 @@ android:windowSoftInputMode=[one or more of: "stateUnspecified" "stateUnchanged"
 ```
 
 - Receiver
+
 ```
 <receiver android:enabled=["true" | "false"] 
            android:exported=["true" | "false"] 
