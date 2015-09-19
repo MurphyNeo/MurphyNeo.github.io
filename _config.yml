@@ -5,10 +5,6 @@ pygments: true
 kramdown:
   input: GFM
 
-markdown: redcarpet
-redcarpet:
-	extensions:["fenced_code_blocks", "autolink", "tables", "strikethrough"]
-
 # 作者信息
 author: 
   name: MurphyNeo
