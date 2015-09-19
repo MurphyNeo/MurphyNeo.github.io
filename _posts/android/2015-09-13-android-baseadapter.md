@@ -7,7 +7,7 @@ keywords: android,ListView,缓存机制
 
 我们都知道在android中列表的显示需要三个元素：ListView、Adapter以及显示的数据，这里的Adapter就是用到了适配器模式，不管传入的是什么View在ListView中都能显示出来。下面是一个展示ListView的示例：
 
-```
+```java
 public class BaseAdapterActivity extends Activity {
 
     @Override
@@ -29,7 +29,7 @@ public class BaseAdapterActivity extends Activity {
 }
 ```
 
-```
+```java
 public class ItemAdapter extends BaseAdapter {
     private List<ItemBean> list;
     private LayoutInflater liflater;

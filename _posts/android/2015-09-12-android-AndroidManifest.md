@@ -11,7 +11,7 @@ keywords: android,AndroidManifest.xml,manifest
 - 包含：包括该应用的包名、版本号、组件、权限等信息
 - 作用：记录应用的相关的配置信息
 
-```
+```xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"> 
     <uses-permission />  //请求你的package正常运作所需要赋予的安全许可。可以没有，也可以包含多个
     <permission />  //声明了安全许可来限制哪些程序能使用你的package中的组件和功能
@@ -58,7 +58,7 @@ keywords: android,AndroidManifest.xml,manifest
 常用标签
 - 全局（包名、版本信息）
 
-```
+```xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="com.example.neo.example"
 	android:versionCode="1"
@@ -99,7 +99,7 @@ android:windowSoftInputMode=[one or more of: "stateUnspecified" "stateUnchanged"
 
 ```
 
-```
+```xml
 <activity
 	android:name=".MainActivity"
     android:label="@string/app_name"
@@ -114,7 +114,7 @@ android:windowSoftInputMode=[one or more of: "stateUnspecified" "stateUnchanged"
 
 - Provider(包含权限控制等)
 
-```
+```xml
 <provider android:authorities="list" 
            android:enabled=["true" | "false"] 
            android:exported=["true" | "false"] 
@@ -134,7 +134,7 @@ android:windowSoftInputMode=[one or more of: "stateUnspecified" "stateUnchanged"
 
 - Service
 
-```
+```xml
 <service android:enabled=["true" | "false"] 
           android:exported[="true" | "false"] 
           android:icon="drawable resource" 
@@ -148,7 +148,7 @@ android:windowSoftInputMode=[one or more of: "stateUnspecified" "stateUnchanged"
 
 - Receiver
 
-```
+```xml
 <receiver android:enabled=["true" | "false"] 
            android:exported=["true" | "false"] 
            android:icon="drawable resource" 

@@ -15,7 +15,7 @@ keywords: android,图片,异步
 
 下面来看下异步加载网络图片示例：
 
-```
+```java
 public class AsyncTaskActivity extends Activity {
 
     private ImageView imageView;
@@ -86,8 +86,10 @@ public class AsyncTaskActivity extends Activity {
     }
 }
 ```
+
 在AndroidManifest.xml中加入访问网络的权限：
-```
+
+```xml
 <uses-permission android:name="android.permission.INTERNET"/> 
 ```
 
