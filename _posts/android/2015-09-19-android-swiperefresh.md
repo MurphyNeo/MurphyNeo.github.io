@@ -37,6 +37,7 @@ public class MainActivity extends Activity {
 ```
 
 MainFragmentActivity.java
+
 ```java
 import android.example.com.googleandroid.swiperefresh.SwiperefreshFragment;
 import android.os.Bundle;
@@ -75,6 +76,7 @@ public class MainFragmentActivity extends FragmentActivity {
 ```
 
 SwiperefreshFragment.java
+
 ```java
 import android.example.com.googleandroid.R;
 import android.os.AsyncTask;
@@ -161,6 +163,7 @@ public class SwiperefreshFragment extends Fragment {
 
 三个配置文件：
 activity_main.xml-->启动主界面
+
 ```xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -177,6 +180,7 @@ activity_main.xml-->启动主界面
 ```
 
 main.xml-->用来展示fragment的
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -195,6 +199,7 @@ main.xml-->用来展示fragment的
 ```
 
 swiperefreshlayout.xml-->使用google下拉刷新的界面
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.SwipeRefreshLayout
