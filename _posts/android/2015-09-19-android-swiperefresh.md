@@ -8,9 +8,10 @@ keywords: swiperefresh,android,google
 在做Android APP的时候，少不了下拉列表的展示，很幸运的是google自己提供了一个下拉刷新的控件swiperefresh。
 下面来看看它是怎么使用的：
 这里只介绍主要的功能代码，其它完整的代码需要的朋友可以在我的github上找到
-<font color="red">[swiperefresh](https://github.com/MurphyNeo/Android)</font>
+[swiperefresh](https://github.com/MurphyNeo/Android)
 
 MainActivity.java
+
 ```java
 import android.app.Activity;
 import android.content.Intent;
