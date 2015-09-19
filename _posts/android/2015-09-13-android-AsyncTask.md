@@ -4,9 +4,6 @@ title: 异步加载网络图片
 category: android
 keywords: android,图片,异步
 ---
-<script type="text/javascript">
-    hljs.initHighlightingOnLoad();
-</script>
 
 最近在学习Android开发，记录一下异步加载图片的实现.
 首先我们要了解一下工具类AsyncTask,通过继承该类可以实现一个异步任务，包括以下几个方法：
