@@ -21,9 +21,9 @@
 <script src="/assets/js/highlight.min.js">
 </script>
 <script type="text/javascript">
-    function initScript(){
+    function initScript(url){
     	alert("javascript");
-    	window.location.href={{ post.url }};
+    	window.location.href=url;
     	hljs.initHighlightingOnLoad();
     }
     function initOther(){
