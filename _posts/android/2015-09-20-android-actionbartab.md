@@ -9,7 +9,7 @@ keywords: actionBar,android,Horizontalpaging
 
 需要完整代码的朋友可以在我的github上找到
 
-[swiperefresh](https://github.com/MurphyNeo/Android)
+[actionbar](https://github.com/MurphyNeo/Android)
 
 MainActivity.java
 
@@ -293,6 +293,7 @@ actionbar.xml-->使用google下拉刷新的界面
 ```
 
 viewpager_fragment.xml
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
