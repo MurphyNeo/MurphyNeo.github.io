@@ -11,7 +11,7 @@ keywords: actionBar,android,Horizontalpaging
 
 需要完整代码的朋友可以在我的github上找到
 
-[actionbar](https://github.com/MurphyNeo/Android)
+[bottom tab](https://github.com/MurphyNeo/Android)
 
 
 
